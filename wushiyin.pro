@@ -35,3 +35,5 @@ FORMS += \
 
 RESOURCES += \
     image.qrc
+
+RC_ICONS = icon.ico

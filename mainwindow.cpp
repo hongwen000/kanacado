@@ -27,14 +27,14 @@ void MainWindow::next(const QString& choice)
         img = new QImage;
         QString filename;
         if(id < 10)
-            filename = QString(":/gana/D:/gana/") + choice + QString("1000") + QString::number(id) + QString(".png");
+            filename = QString(":/kana/D:/kana/") + choice + QString("1000") + QString::number(id) + QString(".png");
         else
-            filename = QString(":/gana/D:/gana/") + choice + QString("100") + QString::number(id) + QString(".png");
-        if(! (img->load(filename) ) ) //¼ÓÔØÍ¼Ïñ
+            filename = QString(":/kana/D:/kana/") + choice + QString("100") + QString::number(id) + QString(".png");
+        if(! (img->load(filename) ) )
         {
             QMessageBox::information(this,
-                                     tr("´ò¿ªÍ¼ÏñÊ§°Ü"),
-                                     tr("´ò¿ªÍ¼ÏñÊ§°Ü!"));
+                                     tr("æ‰“å¼€å›¾åƒå¤±è´¥"),
+                                     tr("æ‰“å¼€å›¾åƒå¤±è´¥!"));
             if(!(img == nullptr))
                 delete img;
             return;

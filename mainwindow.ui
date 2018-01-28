@@ -11,12 +11,18 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>学习五十音</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="2" column="0">
      <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>平假名</string>
       </property>
@@ -24,6 +30,12 @@
     </item>
     <item row="2" column="1">
      <widget class="QPushButton" name="next_k">
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>片假名</string>
       </property>
@@ -31,6 +43,12 @@
     </item>
     <item row="2" column="2">
      <widget class="QPushButton" name="next_all">
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
       <property name="text">
        <string>全部</string>
       </property>
@@ -39,7 +57,7 @@
     <item row="0" column="0" colspan="3">
      <widget class="QLabel" name="image">
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -53,12 +71,12 @@
       </property>
       <property name="font">
        <font>
-        <family>微软雅黑</family>
+        <family>Helvetica</family>
         <pointsize>16</pointsize>
        </font>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
