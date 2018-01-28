@@ -10,7 +10,7 @@ kana是图片文件夹，编译时可能要放在D盘下（或修改代码里的
 
 ## 使用
 
-![mainwindow](mainwindow.png)
+![mainwindow](screenshot.png)
 
 点击“平假名”按钮，显示一个平假名，再点击一次显示其罗马音
 
